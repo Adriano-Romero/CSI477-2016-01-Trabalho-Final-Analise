@@ -23,7 +23,7 @@ Nosso foco é atender ao público que deseja manter uma dieta alimentar saudáve
 	4. Cliente confirma o cadastro
 	5. Sistema confirma que o cadastro foi efetuado com sucesso.
   - **Extensões:** 
-    - Passos 3 à 5: Campos preenchidos erroneamente:
+    - Passos 3 a 5: Campos preenchidos erroneamente
       - Processo de cadastro é interrompido
       - Usuário recebe feedback relativos ao problema
 
@@ -33,16 +33,17 @@ Nosso foco é atender ao público que deseja manter uma dieta alimentar saudáve
  - **Interessados:** 
 	- **Administrador:** Efetuação de cadastro a fim de adicionar produtos ao banco de dados.
  - **Pré-condições:** Acesso à Internet.
- - **Garantias de sucesso:** Produtos devidamente adicionados ao banco de dados. 
+ - **Garantia de sucesso:** Produtos devidamente adicionados ao banco de dados. 
  - **Cenário de sucesso principal:**
 	 1. Administrador acessa a página web;
 	 2. Administrador seleciona o link Cadastrar Produtos ;
 	 3. Administrador preenche devidamente os campos do formulário de cadastro.
 	 4. Administrador confirma o cadastro
 	 5. Sistema confirma que o cadastro foi efetuado com sucesso.
- - **Extensões:** Passos 3 à 5 _ Campos preenchidos erroneamente:
-	 a. Processo de cadastro é interrompido
-	 b. Administrador  recebe feedback relativos ao problema.
+ - **Extensões:** 
+   - Passos 3 a 5: Campos preenchidos erroneamente
+	   - Processo de cadastro é interrompido
+	   - Administrador  recebe feedback relativos ao problema.
 
 ### 2.3 Caso de Uso III: Editar Cliente
  - **Nível:** Administrador ou Cliente
@@ -62,12 +63,39 @@ Nosso foco é atender ao público que deseja manter uma dieta alimentar saudáve
     6. Cliente confirma a edição;
     7. Perfil do cliente é atualizado;
   - **Extensões:** 
-    - Passo 3 _ Usuário ou senha inválidos:
-      a. Processo de login é interrompido;
-      b. Erro é notificado ao usuário;
-      c. Dados são solicitados novamente;
-    - Passos 5-6 _ Campos preenchidos erroneamente:
-      a. Processo de edição é interrompido.
-      b. Usuário recebe feedback relativos ao problema
+    - Passo 3: Usuário ou senha inválidos:
+      - Processo de login é interrompido;
+      - Erro é notificado ao usuário;
+      - Dados são solicitados novamente;
+    - Passos 5 a 6: Campos preenchidos erroneamente:
+      - Processo de edição é interrompido.
+      - Usuário recebe feedback relativos ao problema
+
+### 2.4 Caso de Uso IV:Editar Produto
+ - **Nível:** Administrador
+ - **Atores primários:** Administrador
+ - **Interessados:** 
+    - **Administrador:** Realizar alterações em campos editáveis após cadastro.
+ - **Pré-condições:** Acesso à Internet. Usuário autenticado.
+ - **Garantia de sucesso:** Campo devidamente alterado no banco de dados. Atualização do valor do campo exibido no sistema.
+ - **Cenário de sucesso principal:**
+  1. Administrador acessa a página web;
+  2. Administrador seleciona o link Fazer Login;
+  3. Administrador realiza o processo de autenticação;
+  4. Administrador acessa seu link de Produto;
+  5. Administrador seleciona link editar produto;
+  6. Administrador seleciona e modifica o campo desejado;
+  7. Administrador confirma a edição;
+  8. Produto é atualizado;
+ - Extensões: 
+  - Passo 3: Usuário ou senha inválidos:
+    - Processo de login é interrompido;
+    - Erro é notificado ao usuário;
+    - Dados são solicitados novamente;
+  - Passos 5 a 6: Campos preenchidos erroneamente:
+    - Processo de edição é interrompido.
+    - Usuário recebe feedback relativos ao problema
+
+
 
 
