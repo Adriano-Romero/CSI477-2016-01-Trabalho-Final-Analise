@@ -1,3 +1,3 @@
-# CSI477-2016-01-Trabalho-Final-Analise
+# Digital Nutri: Documentação de análise de requisitos 
 Projeto de site para a loja Digital Nutri para a disciplina CSI477
 
