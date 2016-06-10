@@ -17,7 +17,7 @@ O escopo do projeto é um site para que a Digital Nutri possa vender seus produt
 ## 5. Descrição do Produto
 
 ## 6. Casos de Uso
-
+A seguir são apresentados interações dos usuários com o sistema.
 ### 6.1 Caso de Uso I – Cadastrar Cliente
   - **Nível:** Administrador ou Cliente
   - **Atores primários:** Administrador e Cliente, 
@@ -213,6 +213,22 @@ O escopo do projeto é um site para que a Digital Nutri possa vender seus produt
     4. A lista de dicas é exibida com opções de botões para compra.
 
 ## 7 Classes
+Nesta seção são apresentadas as classes que integram a aplicação, bem como um
+diagrama para cada e um diagrama de classes onde mostra as relações entre elas.
+
+### 7.1 Usuário
+  Classe genérica para compartilhar atributos em comum entre as subclasses Administrador e Cliente.
+  - **Administrador:** Usuário capaz de inserir, remover e atualizar Cliente e Produtos, bem
+  como adicionar, editar e remover todas as categorias do sistema. Tem todos os privilégios do sistema.
+  - **Cliente:** Usuário capaz fazer cadastro, visualizar produtos e fazer compra dos mesmos.
+
+### 7.4  Produtos
+  A classe Produtos é responsável por agrupar diferentes produtos e suas devidas características, como por exemplo o preço.
+  - **Cadastrar Produtos:** A classe Cadastrar Produtos é responsável por adicionar produtos ao banco de dados, sendo o único que pode atualizar é o administrador.
+  - **Cadastrar Cliente:** A classe Cadastrar Clientes é responsável por adicionar clientes ao banco de dados, sendo acessado por todos os níveis.
+
+### 7.5 Dicas 
+  A classe Dicas fornece dicas de como se alimentar de forma saudável, como incluir tais alimentos na rotina alimentar, e como substituir alimentos gordurosos e calóricos por alimentos saudáveis, sendo acessada por todos os níveis.
 
 ## 8 Banco de Dados
 
