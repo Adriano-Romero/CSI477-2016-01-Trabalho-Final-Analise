@@ -65,13 +65,13 @@ A seguir são apresentados interações dos usuários com o sistema.
     - Campo devidamente alterado no banco de dados. 
     - Atualização do valor do campo exibido no sistema.
  - **Cenário de sucesso principal:**
-    1. Cliente acessa a página web;
-    2. Cliente seleciona o link Fazer Login;
-    3. Cliente realiza o processo de autenticação;
-    4. Cliente acessa seu Perfil;
-    5. Cliente seleciona modifica o campo desejado;
-    6. Cliente confirma a edição;
-    7. Perfil do cliente é atualizado.
+      1. Cliente acessa a página web;
+      2. Cliente seleciona o link Fazer Login;
+      3. Cliente realiza o processo de autenticação;
+      4. Cliente acessa seu Perfil;
+      5. Cliente seleciona modifica o campo desejado;
+      6. Cliente confirma a edição;
+      7. Perfil do cliente é atualizado.
   - **Extensões:** 
     - Passo 3: Usuário ou senha inválidos:
         - Processo de login é interrompido;
@@ -166,7 +166,7 @@ A seguir são apresentados interações dos usuários com o sistema.
  - **Garantias de sucesso:** O produto é selecionado e ao final do processo é retirado do banco de dados.
  - **Cenário de sucesso principal:**
     1. Cliente realiza processo de login no sistema;
-    2.Cliente seleciona o link do produto(os) desejado(os);
+    2. Cliente seleciona o link do produto(os) desejado(os);
     3. Cliente preenche os dados para finalização da compra;
     4. A compra é finalizada e o produto é retirado do banco de dados.
  - **Extensões:** 
@@ -251,8 +251,26 @@ Abaixo seguem os links para cada página, todos os protótipos  e seus códigos 
   - [Home Page](Prototipos/index.html)
 
 ## 10 Cronograma
+O cronograma abaixo mostra o planejamento do projeto entre os meses de Junho e Julho.
+
+|           | Documentação | Pesquisa | Implementação | Testes |
+|:---------:|:------------:|:--------:|:-------------:|:------:|
+|  *Semana 1* |       X      |     X    |       X       |    X   |
+|  *Semana 2* |       X      |     X    |               |        |
+|  *Semana 3* |       X      |     X    |               |        |
+|  *Semana 4* |       X      |     X    |       X       |        |
+|  *Semana 5* |       X      |     X    |       X       |    X   |
+|  *Semana 6* |       X      |     X    |       X       |        |
+|  *Semana 7* |       X      |     X    |       X       |        |
+|  *Semana 8* |       X      |     X    |       X       |        |
+|  *Semana 9* |       X      |     X    |       X       |    X   |
+| *Semana 10* |       X      |     X    |       X       |    X   |
 
 ## 11 Referências
+  - [Shop Homepage Template](http://startbootstrap.com/template-overviews/shop-homepage/)
+  - [Loja Digital Nutri](https://www.facebook.com/Loja-Digital-Nutri-892444520871747)
+  - [Dia Diagram Editor](http://dia-installer.de/)
+  - [Ponto Natural Shop](http://pontonaturalshop.com.br)
 
 
 
