@@ -6,6 +6,9 @@ Tem se tornado cada vez maior a busca por alimentação saudável. Alimentos com
 Dentre nossos produtos, encontram-se óleos de coco, óleos de abacate, barras de cereal ou de frutas, doces sem lactoses e temperos sem adição desal ou produtos inorgânicos. Além disso, nosso site contará com dicas de como incluir alimentos saudáveis à rotina diária, e quais os benefícios que estes alimentos trazem para anossa saúde. Como substituir alimentos gordurosos e calóricos por alimentos mais saudáveis e muitas outras dicas.
 
 ##2. Descrição do Problema
+Nos dias de hoje cada vez mais pessoas procuram uma alimentação mais saudável, mas nem sempre sabem onde encontrar produtos do tipo.
+
+Visando isso, esse site busca facilitar a oferta de produtos e dicas de alimentação saudável, independentemente do lugar que o cliente se encontra.
 
 ## 3. Objetivo
 Fornecer aos clientes de forma prática e no conforto de suas casas, produtos orgânicos e saudáveis. Produtos livres de glúten, lactose, componentes inorgânicos e demasiada quantidade de sódio. Além disso, buscaremos fornecer dicas de como se alimentar de forma saudável, como incluir tais alimentos na rotina alimentar, e como substituir alimentos gordurosos e calóricos por alimentos saudáveis. 
@@ -15,6 +18,9 @@ Nosso foco é atender ao público que deseja manter uma dieta alimentar saudáve
 ## 4. Escopo da Aplicação
 O escopo do projeto é um site para que a Digital Nutri possa vender seus produtos e interagir com seus clientes.
 ## 5. Descrição do Produto
+Para produzir um produto que seja de fácil acesso a todos, escolhemos a criação de um site.
+Para tal, pretendemos utilizar o Laravel 5, famoso framework PHP de código aberto,  por permitir um melhor controle de banco de dados e uma sintaxe mais limpa, facilitando manutenção do código.
+
 
 ## 6. Casos de Uso
 A seguir são apresentados interações dos usuários com o sistema.
@@ -229,8 +235,8 @@ diagrama para cada e um diagrama de classes onde mostra as relações entre elas
   como adicionar, editar e remover todas as categorias do sistema. Tem todos os privilégios do sistema.
   - **Cliente:** Usuário capaz fazer cadastro, visualizar produtos e fazer compra dos mesmos.
 
-### 7.4  Produtos
-  A classe Produtos é responsável por agrupar diferentes produtos e suas devidas características, como por exemplo o preço.
+### 7.4  Compras
+  A classe Compras é responsável por agrupar diferentes produtos e suas devidas características, como por exemplo o preço.
   - **Cadastrar Produtos:** A classe Cadastrar Produtos é responsável por adicionar produtos ao banco de dados, sendo o único que pode atualizar é o administrador.
   - **Cadastrar Cliente:** A classe Cadastrar Clientes é responsável por adicionar clientes ao banco de dados, sendo acessado por todos os níveis.
 
@@ -238,6 +244,11 @@ diagrama para cada e um diagrama de classes onde mostra as relações entre elas
   A classe Dicas fornece dicas de como se alimentar de forma saudável, como incluir tais alimentos na rotina alimentar, e como substituir alimentos gordurosos e calóricos por alimentos saudáveis, sendo acessada por todos os níveis.
 
 ## 8 Banco de Dados
+
+### 8.1 Diagrama de classes 
+  ![Diagrama de Classes](Diagramas/Diagrama1.png)
+### 8.2 Diagrama Entidade Relacionamento
+  ![Diagrama Entidade Relacionamento](Diagramas/Diagrama2.png)
 
 ## 9 Protótipos
 Foram criados protótipos das principais partes do site: área de contato, login, dicas e home page. Essas duas últimas são praticamente idênticas, já que a ideia de visualização do catálogo ou de posts sobre dicas de saúde é praticamente mesma.
@@ -270,6 +281,7 @@ O cronograma abaixo mostra o planejamento do projeto entre os meses de Junho e J
   - [Loja Digital Nutri](https://www.facebook.com/Loja-Digital-Nutri-892444520871747)
   - [Dia Diagram Editor](http://dia-installer.de/)
   - [Ponto Natural Shop](http://pontonaturalshop.com.br)
+  - [Laravel Framework](https://laravel.com/)
 
 
 
