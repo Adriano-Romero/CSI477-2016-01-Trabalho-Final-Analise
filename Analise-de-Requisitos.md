@@ -216,9 +216,8 @@ A seguir são apresentados interações dos usuários com o sistema.
     - **Cliente:** Visualizar dicas de como se alimentar de forma saudável. Como substituir alimentos gordurosos ou calóricos por alimentos mais saudáveis. Quais os benefícios que cada um desses alimentos pode trazer. e muitas outras dicas
   - **Cenário de sucesso principal:**
     1. Usuário acessa a página web;
-    2. Usuário realiza processo autenticação;
-    3. Usuário seleciona o link Dicas;
-    4. A lista de dicas é exibida com opções de botões para compra.
+    2. Usuário seleciona o link Dicas;
+    3. A lista de dicas é exibida com opções de botões para compra.
 
 ## 7 Classes
 Nesta seção são apresentadas as classes que integram a aplicação, bem como um
